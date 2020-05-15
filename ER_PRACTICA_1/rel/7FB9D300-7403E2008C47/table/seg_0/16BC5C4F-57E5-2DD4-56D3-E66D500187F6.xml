@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16BC5C4F-57E5-2DD4-56D3-E66D500187F6" name="location">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:04:46 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="location_id" id="B8E8BBCD-C0FD-94C8-FAD5-C7FCC2D7FAB5">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:05:33 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_type_code" id="64863762-9FD1-0585-C55F-EFDC0ADC8983">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:05:33 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_type_name" id="D2449B02-CF9D-8244-A1FA-6CF33CB65223">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:05:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47DB32C0-0E43-DBA3-F6C7-39552F1A0118" name="location_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:05:33 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B8E8BBCD-C0FD-94C8-FAD5-C7FCC2D7FAB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

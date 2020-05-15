@@ -1,0 +1,7 @@
+USE `Practica1`;
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/projects.csv'
+IGNORE INTO TABLE project_temp
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;

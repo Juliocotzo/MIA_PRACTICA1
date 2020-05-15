@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14089B7C-BEC4-C526-5622-F1924AC09AB1" name="level_1a">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:25:17 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_id" id="05F2A80B-B2DE-795B-AE4D-07AD07D6CC20">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F45BBEC-E735-27AB-551C-0E621D9602F9" referredColumn="2E9344D9-8491-C5A2-DA91-671A2E17B81E"/>
+</associations>
+</Column>
+<Column name="project_geoname_id" id="E35B0789-B2F0-59DE-D2D3-E30DC56E6060">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geoname_id" id="E004D157-E4DE-0A19-3BE8-031C6B64EEAE">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="556934F2-7C78-8A14-3259-5A77C121B2D1" referredColumn="98AB2C0B-9552-8CD0-9CA2-06A65E17E12B"/>
+</associations>
+</Column>
+<Column name="transaction_start_year" id="CA4965E7-AFC7-8D7F-AC42-A80ECD87B3DA">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_end_year" id="2CACB0E4-024A-FCB8-3E81-46DB93FD1FF1">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="even_split_commitments" id="B977535B-FCA0-22A0-C84A-FC357581A30E">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="even_split_disbursement" id="70271030-3FC7-DDF0-EC28-56AEC26C2CB5">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:21 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DFAB799C-B00F-A663-8919-66F3F4701295" name="level_1a_project_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:26:45 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05F2A80B-B2DE-795B-AE4D-07AD07D6CC20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43946023-9387-ABC5-1F34-EB7A55768AE2" name="level_1a_geoname_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:27:10 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E004D157-E4DE-0A19-3BE8-031C6B64EEAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

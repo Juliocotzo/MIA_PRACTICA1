@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EDD95861-E6CB-D046-F0AA-ABCF20120A2C" containerWithKeyObject="DED38915-9663-1987-0F29-C145CE65A56F" localFKIndex="ECDA4B11-BECA-DE18-C96F-6BAB0D608C7D" name="location_geoname_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:15:33 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<referredTableLongName>location</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>16BC5C4F-57E5-2DD4-56D3-E66D500187F6</referredTableID>
+<keyObject>47DB32C0-0E43-DBA3-F6C7-39552F1A0118</keyObject>
+<referredKeyID>47DB32C0-0E43-DBA3-F6C7-39552F1A0118</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>location_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

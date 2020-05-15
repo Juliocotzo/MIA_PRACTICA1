@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3715346B-63D2-91F1-0628-EAF700CFEC15" name="country_code">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:06:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="country_id" id="C7DAB156-A2B3-3FC7-4237-6FB8D65FE86D">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:07:01 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="C2D0D7BF-4D08-AB1F-0DED-FBAA568E42E4">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:07:01 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="iso2" id="1AE200E3-5C7F-75EE-CB6D-73C508F06FED">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_aiddata_code" id="B2AE7CF4-00F5-C022-3AAE-F0C652FDF16D">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_cow_alpha" id="8DD19104-281D-8CCA-652A-17C1B3644F13">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_cow_numeric" id="E96CBB92-9C87-DF82-DAF1-6024C197B2DC">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_fao_code" id="E2F78C9C-6C8D-0D11-60DB-A0F68BBB433D">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_fips" id="486FB488-FB43-F07B-7213-F157EE6A678C">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_geoname_id" id="57590219-5B6A-D2C8-F476-5ADED527D9CD">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name_imf_code" id="7C28B1E0-F6E6-B2E1-477D-BFEB882B8BB6">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:08:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7945557-64A4-FC13-DA98-DBE84D282193" name="country_code_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:07:01 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7DAB156-A2B3-3FC7-4237-6FB8D65FE86D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

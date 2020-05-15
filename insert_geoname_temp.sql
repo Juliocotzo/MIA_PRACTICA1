@@ -1,0 +1,7 @@
+USE `Practica1`;
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/geonames.csv'
+IGNORE INTO TABLE geoname_temp
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;

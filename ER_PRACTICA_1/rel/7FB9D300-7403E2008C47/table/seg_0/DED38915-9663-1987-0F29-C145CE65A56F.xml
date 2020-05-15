@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DED38915-9663-1987-0F29-C145CE65A56F" name="geoname">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:09:07 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="geoname_id" id="98AB2C0B-9552-8CD0-9CA2-06A65E17E12B">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="place_name" id="8134ED68-3326-54FF-8911-0DF7CB3A29C4">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="latitud" id="0E155995-9E08-22C8-B059-3DB453356EDA">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="longitude" id="4D9AC372-D6BA-F1CF-D4DD-75D1F91CBC50">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="location_id" id="4C162441-F71F-ADA3-600B-A15DE4A7A80D">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:14:56 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EDD95861-E6CB-D046-F0AA-ABCF20120A2C" referredColumn="B8E8BBCD-C0FD-94C8-FAD5-C7FCC2D7FAB5"/>
+</associations>
+</Column>
+<Column name="gazetteer_adm_code" id="719EB017-1B61-AAF9-92EF-4CB169A953BF">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gazetteer_adm_name" id="96E11BDD-D86A-08C1-B5BC-BE6E81937080">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geographic_exactness" id="F78D8166-7D00-B6F4-C7CF-EF679BCDD1C8">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="geoname_geoname_id" id="A4B20635-6600-207C-0F41-9FEC172F3D2F">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:13:43 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5586C59-D366-B9EB-1A2E-005BB155A2C2" name="geoname_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:10:22 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98AB2C0B-9552-8CD0-9CA2-06A65E17E12B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECDA4B11-BECA-DE18-C96F-6BAB0D608C7D" name="location_geoname_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:15:33 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C162441-F71F-ADA3-600B-A15DE4A7A80D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="060DE9CF-B119-2F5C-A34D-A6A95F1606D0" name="currency">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:03:53 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="currency_id" id="CED5DA07-842B-2613-8E94-8DBBA4FD8692">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:04:39 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="currency_description" id="53160A26-1631-E876-F084-89923299197A">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:04:39 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="939A12AE-9903-75A7-D638-9E28311DE459" name="currency_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:04:39 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CED5DA07-842B-2613-8E94-8DBBA4FD8692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

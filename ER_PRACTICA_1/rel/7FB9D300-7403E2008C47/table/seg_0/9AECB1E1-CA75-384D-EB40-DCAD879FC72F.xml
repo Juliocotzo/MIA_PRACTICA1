@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AECB1E1-CA75-384D-EB40-DCAD879FC72F" name="transaction">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:22:55 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="transaction_id" id="336E5CE0-CB39-110E-13C4-9F8F5D20E6C4">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_code" id="CE32410D-4BC1-7403-FAA0-226C1D352383">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_isodate" id="8688C153-8F13-2756-F0B5-96A44068A011">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_year" id="F8CFDB6A-1EFF-3337-E172-7E8E1B0F926A">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_value_code" id="2F9C2530-DCEE-1448-1AE3-64B998CAEEB3">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_currency_id" id="57573F99-5E61-AF84-F3BF-1BA8B4FC1BAD">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59DCE13B-F68D-8775-B48B-B4E72BF0B71F" referredColumn="CED5DA07-842B-2613-8E94-8DBBA4FD8692"/>
+</associations>
+</Column>
+<Column name="transaction_value" id="F9885F6F-D570-DE66-BB43-5F69BA7BD74B">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_id1" id="C4C6F101-F3BC-DAB2-E4EE-D252F4BF06AB">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3722F580-F456-E2B1-6B4C-5E6E997D7D66" referredColumn="2E9344D9-8491-C5A2-DA91-671A2E17B81E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47A07AAA-FE9C-8093-E0CE-DD3FE14A0F47" name="transaction_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:44 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="336E5CE0-CB39-110E-13C4-9F8F5D20E6C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1886F46-FBC7-558B-90A1-6DF38ED007E2" name="transaction_currency_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:23:57 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57573F99-5E61-AF84-F3BF-1BA8B4FC1BAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="63675EC9-4EFF-83AC-8D70-09165A63C544" name="transaction_project_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:24:47 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4C6F101-F3BC-DAB2-E4EE-D252F4BF06AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

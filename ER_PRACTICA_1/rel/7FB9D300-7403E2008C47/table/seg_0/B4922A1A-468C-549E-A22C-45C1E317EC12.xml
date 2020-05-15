@@ -1,0 +1,192 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4922A1A-468C-549E-A22C-45C1E317EC12" name="project">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:17:50 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="project_id" id="2E9344D9-8491-C5A2-DA91-671A2E17B81E">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_geocoded" id="7F583EFE-AE76-74AB-484B-3A50C60C3BAC">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_title" id="74829465-835E-428E-BDC1-F17EF5408662">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="start_actual_isodate" id="26940077-9AD5-5FEA-6C3B-3CE45F9527B5">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end_actual_isodate" id="F21BF596-6A32-CB66-B24E-AF3109108CC0">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="donors" id="96915700-12B7-0601-A340-CBF0AD09EAE1">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="donors_iso3" id="54F83D95-7BDA-1E81-0E43-0BA7E4C4BFC3">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country_id" id="841CEBC5-A7E3-C760-E583-4E684FAD649D">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B8E15CB-8FF6-0C06-22C9-A6652719738F" referredColumn="C7DAB156-A2B3-3FC7-4237-6FB8D65FE86D"/>
+</associations>
+</Column>
+<Column name="ad_sector_codes" id="5FE9CED0-FADD-DBD4-CADF-EB6373EA1DEC">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ad_sector_names" id="3AC11F8B-250A-7F2A-E3C4-50C75C25F136">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status_id" id="5BAFA471-6C54-681D-2B53-F00CF46025ED">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9A3001A-1D9F-0BA8-CE11-A78D167299E0" referredColumn="518EC421-843F-B56C-E765-5153B8B50252"/>
+</associations>
+</Column>
+<Column name="transaction_start_year" id="B8074F59-B70C-9CE5-560E-C074989A84D6">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="transaction_end_year" id="ECC4AF8D-76C0-6803-4D4D-9E27B2E87998">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_commitments" id="E09429B9-97E9-0E36-F3CF-3DCC7A198607">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_disburments" id="2FAF2CB4-A8CE-B952-C925-2E6124F0A064">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="project_code" id="6A4CB1E1-84A9-C877-9E78-18BB786FD3ED">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DC6E1F4-CEF5-D52F-EC52-C268C945E3CA" name="project_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:20:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E9344D9-8491-C5A2-DA91-671A2E17B81E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C496FBF-C625-8264-C310-6C2414EF8D17" name="project_country_code_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:21:36 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="841CEBC5-A7E3-C760-E583-4E684FAD649D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDD57BD6-CC10-94B8-F339-08B44C3B5694" name="project_type_status_FK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:22:29 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BAFA471-6C54-681D-2B53-F00CF46025ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

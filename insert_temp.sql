@@ -1,0 +1,41 @@
+USE `Practica1`;
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/country_codes.csv'
+IGNORE INTO TABLE country_code_temp
+COLUMNS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/geonames.csv'
+IGNORE INTO TABLE geoname_temp
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/level_1a.csv'
+IGNORE INTO TABLE level_1a_temp
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/locations.csv'
+IGNORE INTO TABLE location_temp
+COLUMNS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/projects.csv'
+IGNORE INTO TABLE project_temp
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA INFILE '/var/lib/mysql-files/ArchivosCSV/transactions.csv'
+IGNORE INTO TABLE transaction_temp
+COLUMNS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+

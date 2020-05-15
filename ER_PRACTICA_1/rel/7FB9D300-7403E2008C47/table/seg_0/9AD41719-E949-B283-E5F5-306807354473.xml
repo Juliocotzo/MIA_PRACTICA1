@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AD41719-E949-B283-E5F5-306807354473" name="type_status">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:00:58 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_status" id="518EC421-843F-B56C-E765-5153B8B50252">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:02:38 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="916244DA-E467-9774-7FCF-641C65AAE623">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:02:38 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2A77E75-6C94-DBBD-EB9F-431CB162F020" name="type_status_PK">
+<createdBy>julio</createdBy>
+<createdTime>2019-04-05 01:02:38 UTC</createdTime>
+<ownerDesignName>ER_PRACTICA_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="518EC421-843F-B56C-E765-5153B8B50252"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
